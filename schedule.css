@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.back-button {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.schedule-table {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #ccc;
+    color: black;
+}
+
+.schedule-table th, .schedule-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.schedule-table th {
+    background-color: gray;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.join-button {
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    padding: 15px;
+    margin: 10px auto;
+    background-color: limegreen;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.join-button:hover {
+    background-color: green;
+}
